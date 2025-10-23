@@ -75,6 +75,12 @@ jobs:
           sudo apt-get install -y libtiff5-dev 
           sudo apt-get install -y libjpeg-dev 
           sudo apt-get install -y libz-dev
+          # install jdk
+          sudo apt-get install -y libz-dev
+          sudo apt upgrade -y
+          sudo apt-get install -y openjdk-21-jdk
+          export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-arm64/
+          R CMD javareconf -e
 
       ## macOS dependencies
       - name: Install macOS system dependencies
@@ -125,7 +131,13 @@ jobs:
           install.packages(c("rcmdcheck", "BiocCheck"), repos = BiocManager::repositories())
           remotes::install_local(dependencies = TRUE, repos = BiocManager::repositories(), build_vignettes = FALSE, upgrade = TRUE)
         shell: Rscript {0}
-          
+      
+      # All Other dependencies
+      - name: Install Suggested dependencies
+        run: |
+          BiocManager::install('RBioFormats')
+        shell: Rscript {0}
+        
       ## R CMD Check
       - name: Run CMD check
         env:
