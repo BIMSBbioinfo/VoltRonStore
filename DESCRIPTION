@@ -1,0 +1,40 @@
+Package: VoltRonStore
+Type: Package
+Title: On-Disk support and dependancies for VoltRon
+Version: 0.1.0
+Date: 2025-10-23
+Depends: R (>= 4.4.0)
+Author@R:
+  person("Artür", "Manukyan", 
+         role=c("aut", "cre"),
+         email="artur-man@hotmail.com", 
+         comment=c(ORCID="0000-0002-0441-9517")),
+  person("Markus", "Landthaler", 
+         role=c("aut")),
+  person("Altuna", "Akalin", 
+         role=c("aut"))
+Author: Artür Manukyan, Markus Landthaler, Altuna Akalin
+Maintainer: Artür Manukyan <artur-man@hotmail.com>
+Description: VoltRonStore provides utilities and a resource for installing dependencies of VoltRon package
+License: MIT + file LICENSE
+biocViews:
+Imports:
+    DelayedArray,
+    DelayedMatrixStats,
+    BiocParallel,
+    rhdf5,
+    Rarr,
+    basilisk,
+    reticulate,
+    BPCells,
+    HDF5Array,
+    HDF5DataFrame,
+    ZarrDataFrame,
+    ImageArray
+Remotes:
+    bnprks/BPCells,
+    BIMSBbioinfo/VoltRon,
+    BIMSBbioinfo/HDF5DataFrame,
+    BIMSBbioinfo/HDF5DataFrame,
+    BIMSBbioinfo/ImageArray
+RoxygenNote: 7.3.3
