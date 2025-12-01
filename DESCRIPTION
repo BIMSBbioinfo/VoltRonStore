@@ -32,7 +32,7 @@ Imports:
     ZarrDataFrame,
     ImageArray
 Remotes:
-    bnprks/BPCells/r,
+    bnprks/BPCells/r@v0.3.0,
     BIMSBbioinfo/VoltRon,
     BIMSBbioinfo/HDF5DataFrame,
     BIMSBbioinfo/ZarrDataFrame,
