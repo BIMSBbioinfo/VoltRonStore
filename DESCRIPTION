@@ -1,7 +1,7 @@
 Package: VoltRonStore
 Type: Package
 Title: On-Disk support and dependancies for VoltRon
-Version: 0.1.0
+Version: 0.1.1
 Date: 2025-10-23
 Depends: R (>= 4.4.0)
 Author@R:
@@ -36,5 +36,5 @@ Remotes:
     BIMSBbioinfo/VoltRon,
     BIMSBbioinfo/HDF5DataFrame,
     BIMSBbioinfo/ZarrDataFrame,
-    BIMSBbioinfo/ImageArray
+    Artur-man/ImageArray
 RoxygenNote: 7.3.3
