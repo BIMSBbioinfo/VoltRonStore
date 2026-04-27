@@ -35,6 +35,5 @@ Remotes:
     bnprks/BPCells/r@v0.3.0,
     BIMSBbioinfo/VoltRon,
     BIMSBbioinfo/HDF5DataFrame,
-    BIMSBbioinfo/ZarrDataFrame,
-    Artur-man/ImageArray
+    BIMSBbioinfo/ZarrDataFrame
 RoxygenNote: 7.3.3
