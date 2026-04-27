@@ -3,7 +3,7 @@ Type: Package
 Title: On-Disk support and dependancies for VoltRon
 Version: 0.1.1
 Date: 2025-10-23
-Depends: R (>= 4.4.0)
+Depends: R (>= 4.6.0)
 Author@R:
   person("Artür", "Manukyan", 
          role=c("aut", "cre"),
