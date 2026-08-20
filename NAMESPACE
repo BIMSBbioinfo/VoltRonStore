@@ -3,6 +3,7 @@
 exportMethods(getPCA)
 exportMethods(normalizeData)
 import(BPCells)
+import(VoltRon)
 importClassesFrom(S4Arrays,Array)
 importFrom(VoltRon,
   getPCA,

@@ -2,6 +2,7 @@
 #' @importFrom VoltRon getPCA
 #' @importClassesFrom S4Arrays Array
 #' @import BPCells
+#' @import VoltRon
 
 #' @export
 setMethod("normalizeData", 
