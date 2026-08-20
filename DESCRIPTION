@@ -19,6 +19,7 @@ Description: VoltRonStore provides utilities and a resource for installing depen
 License: MIT + file LICENSE
 biocViews:
 Imports:
+    VoltRon,
     S4Arrays,
     DelayedArray,
     DelayedMatrixStats,
