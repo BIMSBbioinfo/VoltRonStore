@@ -1,7 +1,7 @@
 Package: VoltRonStore
 Type: Package
 Title: On-Disk support and dependancies for VoltRon
-Version: 0.1.1
+Version: 0.1.2
 Date: 2025-10-23
 Depends: R (>= 4.6.0)
 Author@R:
@@ -19,6 +19,8 @@ Description: VoltRonStore provides utilities and a resource for installing depen
 License: MIT + file LICENSE
 biocViews:
 Imports:
+    VoltRon,
+    S4Arrays,
     DelayedArray,
     DelayedMatrixStats,
     BiocParallel,
@@ -36,4 +38,4 @@ Remotes:
     BIMSBbioinfo/VoltRon,
     BIMSBbioinfo/HDF5DataFrame,
     BIMSBbioinfo/ZarrDataFrame
-RoxygenNote: 7.3.3
+Config/roxygen2/version: 8.1.0
