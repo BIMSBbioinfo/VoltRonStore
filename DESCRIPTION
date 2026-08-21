@@ -35,7 +35,7 @@ Imports:
     ImageArray
 Remotes:
     bnprks/BPCells/r@v0.3.0,
-    BIMSBbioinfo/VoltRon@dev,
+    BIMSBbioinfo/VoltRon,
     BIMSBbioinfo/HDF5DataFrame,
     BIMSBbioinfo/ZarrDataFrame
 Config/roxygen2/version: 8.1.0
